@@ -265,6 +265,27 @@ color: #000;
 #cancel:hover{
     background: #ccc;
 }
+/* .popup button{
+    width: 47%;
+    margin-top: 50px;
+    padding: 10px 0;
+    background: linear-gradient(135deg , #71b7e6, #ccc);
+    color: #fff;
+    font-size: 18px;
+    border-radius: 4px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+.popup button:hover{
+    background: linear-gradient(-135deg, #71b7e6, #59b675);
+}
+
+#cancel{
+    background: linear-gradient(135deg , #71b7e6, #ccc);
+}
+#cancel:hover{
+    background: linear-gradient(-135deg, #71b7e6, #59b675);
+} */ 
 
 /* 
     #9b59b6
