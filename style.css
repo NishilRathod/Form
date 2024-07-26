@@ -47,6 +47,7 @@ body{
 
 form  .user-details .input-box{
     margin-bottom:  15px;
+    margin-right: 8px;
     width: 47%;
 }
 .user-details .input-box .details{
@@ -94,8 +95,9 @@ select {
 
 
 form .gender-details .gender-title{
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
 }
 form .gender-details .category{
     display: flex;
@@ -134,6 +136,7 @@ form .button{
     display: block;
     height: 45px;
     margin: 25px 0;
+    margin-right: 8px;
     width: 47%;
 }
 
@@ -243,7 +246,7 @@ h4{
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
-.popup button{
+ /* .popup button{
     width: 47%;
     margin-top: 50px;
     padding: 10px 0;
@@ -265,16 +268,18 @@ color: #000;
 #cancel:hover{
     background: #ccc;
 }
-/* .popup button{
+    */
+.popup button{
     width: 47%;
     margin-top: 50px;
+    margin-right: 5px;
     padding: 10px 0;
     background: linear-gradient(135deg , #71b7e6, #ccc);
     color: #fff;
     font-size: 18px;
     border-radius: 4px;
-    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
     cursor: pointer;
+    border: none;
 }
 .popup button:hover{
     background: linear-gradient(-135deg, #71b7e6, #59b675);
@@ -285,7 +290,22 @@ color: #000;
 }
 #cancel:hover{
     background: linear-gradient(-135deg, #71b7e6, #59b675);
-} */ 
+} 
+
+::-webkit-scrollbar{
+    background-color: #fff;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color: transparent;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #9cc6e2;
+    border-radius: 10px;
+}
+
+
 
 /* 
     #9b59b6

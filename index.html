@@ -15,7 +15,7 @@
         <h3>Booking ID - 123456</h3>
         <div class="container">
             <div class="title">Update your details</div>
-            <form method="get" onsubmit="clicked()">
+            <form id="form1" method="get" onsubmit="clicked()">
                 <div class="user-details">
                     <div class="input-box">
                         <span class="details">Full Name</span>
@@ -173,7 +173,8 @@
                             <option class="bg-blue">Option 3</option>
                         </select>
                         <div class="select_arrow"></div>
-                    </div><div class="input-box">
+                    </div>
+                    <div class="input-box">
                         <span class="details">Pickup</span>
                         <select>
                             <option class="bg-blue">Enter Pickup Point</option>
@@ -184,7 +185,7 @@
                         <div class="select_arrow"></div>
                     </div>
                     <div class="button" onclick="openPopup()">
-                        <input type="button" value="Save">
+                        <input type="button" value="Save" disabled="disabled">
                     </div>
                     <div class="button" onclick="openPopup2()">
                         <input type="button" value="Update">
