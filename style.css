@@ -54,7 +54,7 @@ form  .user-details .input-box{
     display: block;
     font-weight: 500;
     margin-bottom: 5px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Inter", sans-serif;
     
 }
 
@@ -68,7 +68,7 @@ form  .user-details .input-box{
     font-size: 16px;
     border-bottom-width: 2px;
     transition: all 0.3s ease;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Inter", sans-serif;
 }
 select {
     background: white;
@@ -97,7 +97,7 @@ select {
 form .gender-details .gender-title{
     font-size: 17px;
     font-weight: 500;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Inter", sans-serif;
 }
 form .gender-details .category{
     display: flex;
@@ -156,6 +156,13 @@ form .button input:hover{
     background: linear-gradient(-135deg, #71b7e6, #59b675);
     cursor: pointer;
 }
+
+form .button input:disabled{
+    background-color: white !important;
+    color: #71b7e6;
+    border: 2px solid #71b7e6;
+    background: none;
+} 
 
 @media(max-width: 584px) {
     .container{
@@ -220,7 +227,7 @@ h4{
     border-radius: 50%;
 }
 .popup{
-    width: 500px;
+    width: 400px;
     background: #f5ffff;
     border-radius: 6px;
     position: absolute;
@@ -246,50 +253,30 @@ h4{
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
- /* .popup button{
-    width: 47%;
-    margin-top: 50px;
-    padding: 10px 0;
-    background: #6fd649;
-    color: #fff;
-    font-size: 18px;
-    border-radius: 4px;
-    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
-    cursor: pointer;
-}
-.popup button:hover{
-    background: #ccc;
-}
-
-#cancel{
-background: #fff;
-color: #000;
-}
-#cancel:hover{
-    background: #ccc;
-}
-    */
 .popup button{
     width: 47%;
     margin-top: 50px;
     margin-right: 5px;
     padding: 10px 0;
-    background: linear-gradient(135deg , #71b7e6, #ccc);
-    color: #fff;
+    background-color: white !important;
+    color: #71b7e6;
+    border: 2px solid #71b7e6;
+    background: none;
     font-size: 18px;
     border-radius: 4px;
     cursor: pointer;
-    border: none;
 }
 .popup button:hover{
-    background: linear-gradient(-135deg, #71b7e6, #59b675);
+    background-color: #f0e6e6 !important;
 }
 
-#cancel{
+#OK{
+    color: #fff;
+    border: none;
     background: linear-gradient(135deg , #71b7e6, #ccc);
 }
-#cancel:hover{
-    background: linear-gradient(-135deg, #71b7e6, #59b675);
+#OK:hover{
+    background: linear-gradient(-135deg, #71b7e6, #59b675) !important;
 } 
 
 ::-webkit-scrollbar{
